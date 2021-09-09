@@ -42,7 +42,7 @@ function init() {
         let imageData = file.dataURL;
 
         // get the url to the classify_image API endpoint
-        var url = "http://127.0.0.1:5000/classify_image";
+        var url = "/api/classify_image";
 
         // jQuery post http call
         /**
